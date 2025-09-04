@@ -1,0 +1,23 @@
+.nav-sidebar > .nav-item > .nav-link {
+    background-color: #1348c3 !important; /* Azul para todo el menú */
+    color: white !important; /* Asegura que las letras sigan siendo visibles */
+}
+
+.nav-sidebar > .nav-item > .nav-link:hover {
+    background-color: #103da1 !important; /* Azul más oscuro al pasar el cursor */
+    color: white !important;
+}
+
+.nav-sidebar .menu-open > .nav-link {
+    background-color: #103da1 !important; /* Azul más oscuro para elementos activos */
+    color: white !important;
+}
+
+.nav-treeview > .nav-item > .nav-link {
+    background-color: #1348c3 !important; /* Azul también para submenús */
+    color: white !important;
+}
+
+.nav-treeview > .nav-item > .nav-link:hover {
+    background-color: #103da1 !important; /* Azul más oscuro para submenús al pasar el cursor */
+}
